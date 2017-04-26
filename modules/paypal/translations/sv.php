@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{paypal}theme990>order-confirmation-mobile_fb077ecba55e5552916bde26d8b9e794'] = 'Orderbekräftelse';
+$_MODULE['<{paypal}theme990>order-confirmation-mobile_d5860edcd3078f86ee963c27654bc6cf'] = 'Totalt belopp (inkl. moms)';
+$_MODULE['<{paypal}theme990>order-confirmation-mobile_a378cd7a0839cbd4ec3e45bbdeeb69be'] = 'Ditt order ID är följande:';
+$_MODULE['<{paypal}theme990>order-confirmation-mobile_6e860dc1cf94ca08b3fd99993aa2dc68'] = 'Din PayPal transaktions ID är:';
+$_MODULE['<{paypal}theme990>order-confirmation-mobile_300225ee958b6350abc51805dab83c24'] = 'Fortsätt handla';
+$_MODULE['<{paypal}theme990>order-confirmation-mobile_9390390581f54c65d6acfc8da4e17362'] = 'Tillbaka till order';
+$_MODULE['<{paypal}theme990>order-confirmation_fb077ecba55e5552916bde26d8b9e794'] = 'Orderbekräftelse';
+$_MODULE['<{paypal}theme990>order-confirmation_d5860edcd3078f86ee963c27654bc6cf'] = 'Totalt belopp (inkl. moms)';
+$_MODULE['<{paypal}theme990>order-confirmation_a378cd7a0839cbd4ec3e45bbdeeb69be'] = 'Ditt order ID är följande:';
+$_MODULE['<{paypal}theme990>order-confirmation_6e860dc1cf94ca08b3fd99993aa2dc68'] = 'Din PayPal transaktions ID är följande:';
+$_MODULE['<{paypal}theme990>order-confirmation_4082ea29b4f196c4f60533500139725a'] = 'Följ min beställning';
+$_MODULE['<{paypal}theme990>order-confirmation_9390390581f54c65d6acfc8da4e17362'] = 'Tillbaka till order';
+$_MODULE['<{paypal}theme990>order-summary_a40cab5994f36d4c48103a22ca082e8f'] = 'Din varukorg';
+$_MODULE['<{paypal}theme990>order-summary_ad69e733ebae8d264bccaa38d68830e8'] = 'PayPal';
+$_MODULE['<{paypal}theme990>order-summary_f1d3b424cd68795ecaa552883759aceb'] = 'Orderöversikt';
+$_MODULE['<{paypal}theme990>order-summary_dd23adc5fb6bda9c384397b31e57fc53'] = 'PayPal betalning';
+$_MODULE['<{paypal}theme990>order-summary_0881a11f7af33bc1b43e437391129d66'] = 'Vänligen bekräfta din beställning genom att klicka på \"Jag bekräftar min beställning\"';
+$_MODULE['<{paypal}theme990>order-summary_46b9e3665f187c739c55983f757ccda0'] = 'Jag bekräftar min beställning';
+$_MODULE['<{paypal}theme990>column_dac2693baa5c5c9a5318609ed81c4f2a'] = 'Betala med PayPal';
+$_MODULE['<{paypal}theme990>confirmation_2e2117b7c81aa9ea6931641ea2c6499f'] = 'Din beställning';
+$_MODULE['<{paypal}theme990>confirmation_75fbf512d744977d62599cc3f0ae2bb4'] = 'är genomförd';
+$_MODULE['<{paypal}theme990>confirmation_15b0f8e55c6bdfc3d5fd0b6b3b6cb3ee'] = 'Du har valt att betala med PayPal';
+$_MODULE['<{paypal}theme990>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Din beställning kommer att skickas inom kort.';
+$_MODULE['<{paypal}theme990>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'För eventuella frågor eller ytterligare information, vänligen kontakta vår';
+$_MODULE['<{paypal}theme990>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'kundtjänst';
+$_MODULE['<{paypal}theme990>express_checkout_payment_dac2693baa5c5c9a5318609ed81c4f2a'] = 'Betala med Paypal';
+$_MODULE['<{paypal}theme990>express_checkout_payment_83a1a5a403aed4b7ead866d253aef998'] = 'Betala med kreditkort eller Paypal';
+$_MODULE['<{paypal}theme990>express_checkout_payment_eu_dac2693baa5c5c9a5318609ed81c4f2a'] = 'Betala med PayPal';
+$_MODULE['<{paypal}theme990>express_checkout_shortcut_form_dac2693baa5c5c9a5318609ed81c4f2a'] = 'Betala med PayPal';
+$_MODULE['<{paypal}theme990>integral_evolution_payment_ecab922bc1f9b5726e2a6deb4acaec4e'] = 'Återvänd till Ljusgiganten.se';
+$_MODULE['<{paypal}theme990>integral_evolution_payment_eu_ecab922bc1f9b5726e2a6deb4acaec4e'] = 'Återvänd till Ljusgiganten.se';

@@ -1,0 +1,11 @@
+[{shop_url}] 
+
+Hej {firstname} {lastname}, 
+
+VARNING: du har fått en ny logg varning i ditt Back Office.
+
+Du kan kolla under "AVANCERADE PARAMETRAR" &gt; "LOGGAR" i Back Office.
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

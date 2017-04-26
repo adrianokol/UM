@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{sveakortbetalning}theme990>sveakortbetalning_101eaaabb3492ef5aaab186903e3aee4'] = 'SveaWebPay betalningsAPI';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_f4f70727dc34561dfde1a3c529b6205c'] = 'Inställningar';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_896890bfb700eac98300d639ca970f2b'] = 'MerchantID';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_1e6947ac7fb3a9529a9726eb692c8cc5'] = 'Secret';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_4245499695408b974322be6f01b0d17a'] = 'Testläge';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_93cba07454f06a4a960172bbd6e2a435'] = 'Ja';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nej';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_0da8d9a75492046bea7f314521e07cae'] = 'Betalningsmetoder';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_4de70f80016440f94ea9790d7777dd6a'] = 'Kortbetalning';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_a2d4dbb02bea8fa4de314b62ef6c32fc'] = 'Swedbank';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_75e252e7835bf1279cfff32b486f5e4b'] = 'Nordea';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_91ca03cf546e44a2383115e41f46be6c'] = 'SEB';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_990b03c5089b8434ee4675d87c2cedd1'] = 'Handelsbanken';
+$_MODULE['<{sveakortbetalning}theme990>sveaadmin_c9cc8cce247e49bae79f15173ce97354'] = 'Spara';
+$_MODULE['<{sveakortbetalning}theme990>confirmation_d84c93a1ad13b157243989c0ff11a841'] = 'Tack för din beställning';
+$_MODULE['<{sveakortbetalning}theme990>confirmation_b634bbf1dd1f847e258bb0a81dfa5306'] = 'Vi hoppas du ska bli nöjd och återkomma som kund hos oss.';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_3aea42d13a04d274a6e69e037f8e6ba1'] = 'Betala med Visa eller Mastercard';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_9170767f95679af67e30f67a14976900'] = 'Använd ditt Visa eller Mastercard för att betala säkert via vår partner, Sveawebpay.';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_504d9dac4f89e0e9fb1fcb9fc4a5d799'] = 'Betala direkt via Swedbank';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_b28ba73df9274dab12f1ef58e7522df6'] = 'Använd ditt bankinlogg till Swedbank och betala varorna direkt.';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_d2a201bc30466abf530729871946370b'] = 'Betala direkt via Nordea';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_e789845e7e0e72688b3601e962661794'] = 'Använd ditt bankinlogg till Nordea och betala varorna direkt.';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_23377c56b6bc74164a059e1b5d0a7447'] = 'Betala direkt via SEB';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_d383861ed2dafe5ede20ccaa40aec1cf'] = 'Använd ditt bankinlogg till SEB och betala varorna direkt.';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_9f8d1ca469cda82bd705e48b2088f308'] = 'Betala direkt via Handelsbanken';
+$_MODULE['<{sveakortbetalning}theme990>sveacard_3567604f4820540807d53b9f890e9c64'] = 'Använd ditt bankinlogg till Handelsbanken och betala varorna direkt.';
