@@ -130,6 +130,8 @@ Product list(Grid) Styles
 ********************************************************/
 ul.product_list.grid > li {
   margin-bottom: 30px; }
+ul#homefeatured.product_list.grid > li {
+  margin-bottom: 0; }
   @media (min-width: 611px) and (max-width: 767px) {
     ul.product_list.grid > li {
       width: 50%;

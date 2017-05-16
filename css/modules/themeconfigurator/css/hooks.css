@@ -264,18 +264,14 @@
 /* Home hook CSS */
 #htmlcontent_home h3 {
 	font-weight: bold;
-	color: black;
+	color: #636363;
 	text-transform: uppercase;
 }
 
 #htmlcontent_home a {
 	color: #8e8e8e;
 }
-#htmlcontent_home {
-padding: 0 16px;
-  margin: 0 0 30px; 
-  color: #8e8e8e;
-  }
+#htmlcontent_home {padding: 0 16px;margin: 0 0 30px;color: #636363;}
 
 #htmlcontent_home li {
   overflow: visible; }
@@ -287,19 +283,20 @@ padding: 0 16px;
   box-sizing: border-box;
   padding: 8px 20px;
   overflow: hidden;
-  -moz-transition: all 0.3s ease;
+  /*-moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  #htmlcontent_home li > div:hover {
+  transition: all 0.3s ease;*/ }
+  /*#htmlcontent_home li > div:hover {
     -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }*/
 
 @media (max-width: 991px) {
   #htmlcontent_home li {
     width: 100%;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+    } }
 #htmlcontent_home li h4 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -324,7 +321,7 @@ padding: 0 16px;
   float: left;
   margin: 20px 19px 0 0;
   width: auto; }
-#htmlcontent_home li.htmlcontent-item-2 > div {
+/*#htmlcontent_home li.htmlcontent-item-2 > div {
   background: none;
   padding-bottom: 18px;
   border: 1px solid lightgray; }
@@ -336,8 +333,41 @@ padding: 0 16px;
 #htmlcontent_home li.htmlcontent-item-3 h4 {
   color: #fff; }
 #htmlcontent_home li.htmlcontent-item-3 p {
-  color: #abaaaa; }
+  color: #abaaaa; }*/
 
 /* Left hook CSS */
 /* Right hook CSS */
 /* Footer hook CSS */
+
+/* Hacks for categories on home page */
+
+#htmlcontent_home li.htmlcontent-item-1 img,
+#htmlcontent_home li.htmlcontent-item-3 img {
+  width: 66.5%;
+  margin-right: 0.8%;
+}
+
+#htmlcontent_home li.htmlcontent-item-2 img,
+#htmlcontent_home li.htmlcontent-item-4 img {
+  width: 32.7%;
+  margin-right: 0;
+}
+
+#htmlcontent_home li.htmlcontent-item-1,
+#htmlcontent_home li.htmlcontent-item-2 {
+  margin-bottom: 0;
+}
+
+#htmlcontent_home li.htmlcontent-item-1 img,
+#htmlcontent_home li.htmlcontent-item-2 img {
+  margin-top: 15px;
+}
+
+#htmlcontent_home li.htmlcontent-item-3 img,
+#htmlcontent_home li.htmlcontent-item-4 img {
+  margin-top: 0.8%;
+}
+
+#htmlcontent_home li.htmlcontent-item-5 > div {
+  width: 100%;
+}

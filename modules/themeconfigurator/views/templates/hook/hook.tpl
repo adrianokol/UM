@@ -1,7 +1,9 @@
 {if isset($htmlitems) && $htmlitems}
     {assign var='hookName' value={$hook|escape:'htmlall':'UTF-8'}}
     <div id="htmlcontent_{$hookName}">
-		<h3>{l s='Choose a saccosack that brightens your day' mod='themeconf'}</h3>
+		{*
+        <h3>{l s='Choose a saccosack that brightens your day' mod='themeconf'}</h3>
+        *}
         <ul class="htmlcontent-home clearfix row">
             {foreach name=items from=$htmlitems item=hItem}
                 <li class="htmlcontent-item-{$smarty.foreach.items.iteration|escape:'htmlall':'UTF-8'}{if $hookName =='footer'} col-xs-4{/if}">

@@ -20,7 +20,7 @@
 			<div class="footer-container">
 				<footer id="footer"  class="container">
 					<div class="row paymentlogos">
-						<img src="{$img_dir}footer.png" alt="{l s='Our payment options'} title="{l s='Our payment options'}">
+						<img src="{$img_dir}footer.png" alt="{l s='Our payment options'}" title="{l s='Our payment options'}">
 					</div>
 					<div class="row footertext">
 						<p>{l s='On saccosack you get the nordics biggest selection of saccosacks from the biggest and most known brands. With us you purchase quick and safe and we offer 30 days returns on the entire collection. Quality is a leading star for us and we want to be the best in the market'}

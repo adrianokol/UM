@@ -5,23 +5,6 @@
 <!--[if gt IE 8]> <html class="no-js ie9" lang="{$lang_iso}"><![endif]-->
 <html lang="{$lang_iso}">
 	<head>
-	{literal}
-
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '850784948355158');
-fbq('track', "PageView");</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=850784948355158&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-{/literal}
 		<meta charset="utf-8" />
 		<title>{$meta_title|escape:'html':'UTF-8'}</title>
 {if isset($meta_description) AND $meta_description}
@@ -84,6 +67,24 @@ src="https://www.facebook.com/tr?id=850784948355158&ev=PageView&noscript=1"
 	</head>
 
 	<body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{/if}{if $hide_right_column} hide-right-column{/if}{if $content_only} content_only{/if} lang_{$lang_iso}{if !$hide_left_column && !$hide_right_column} two_columns{/if}">
+	{literal}
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '850784948355158');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=850784948355158&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+{/literal}
+
 	{if !$content_only}
     	<!--[if IE 8]>
         <div style='clear:both;height:59px;padding:0 15px 0 15px;position:relative;z-index:10000;text-align:center;'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>
@@ -103,6 +104,7 @@ src="https://www.facebook.com/tr?id=850784948355158&ev=PageView&noscript=1"
 							</div>
 						</div>
 					</div>
+					<div class="top-bar-background"><div></div></div>
 					<div class="nav">
 						<div class="container">
 							<div class="row">
@@ -138,8 +140,16 @@ src="https://www.facebook.com/tr?id=850784948355158&ev=PageView&noscript=1"
 						<div id="top_column" class="center_column col-xs-12">{hook h="displayTopColumn"}</div>
 					</div>
 					<div class="row">
+					{*
 						{if isset($left_column_size) && !empty($left_column_size)}
 						<div id="left_column" class="column col-xs-12 col-sm-{$left_column_size|intval}">{$HOOK_LEFT_COLUMN}</div>
 						{/if}
 						<div id="center_column" class="center_column col-xs-12 col-sm-{12 - $left_column_size - $right_column_size}">
+					*}
+						{if !empty($HOOK_LEFT_COLUMN)}
+						<div id="left_column" class="column col-xs-12 col-sm-3 col-md-2">{$HOOK_LEFT_COLUMN}</div>
+						<div id="center_column" class="center_column col-xs-12 col-sm-9 col-md-10">
+						{else}
+						<div id="center_column" class="center_column col-xs-12 col-sm-12">
+						{/if}
 	{/if}

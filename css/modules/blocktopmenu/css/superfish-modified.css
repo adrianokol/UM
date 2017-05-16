@@ -29,7 +29,7 @@
   list-style: none; }
 
 .sf-menu {
-margin-left: 80px;
+margin-left: 0;
   position: relative;
   padding: 0;
   width: 100%;
@@ -79,7 +79,7 @@ margin-left: 80px;
   .sf-menu > li > a {
     font: bold 16px/20px "Roboto", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: #5a5a5a;
     display: block;
     padding: 16px 10px 18px;
     -moz-transition: all 0.3s ease;

@@ -110,9 +110,13 @@ margin-left: auto;
     position: relative;
     background: #fff;
     padding-left: 50px;
-    box-shadow: inset 0px 4px 18px 0px rgba(0, 0, 0, 0.24);
-    -moz-box-shadow: inset 0px 4px 18px 0px rgba(0, 0, 0, 0.24);
-    -webkit-box-shadow: inset 0px 4px 18px 0px rgba(0, 0, 0, 0.24);
+    /*! box-shadow: inset 0px 4px 18px 0px rgba(0, 0, 0, 0.24); */
+    /*! -moz-box-shadow: inset 0px 4px 18px 0px rgba(0, 0, 0, 0.24); */
+    /*! -webkit-box-shadow: inset 0px 4px 18px 0px rgba(0, 0, 0, 0.24); */
+    box-shadow: 0px 15px 15px -20px rgba(0, 0, 0, 0.24);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
     }
     @media (max-width: 767px) {
       #search_block_top #searchbox {

@@ -1,4 +1,4 @@
-<li {if isset($currentCategoryId) && $node.id == $currentCategoryId}class="selected_li"{/if}>
+<li class="{if isset($currentCategoryId) && $node.id == $currentCategoryId}selected_li{/if}{if $node.children|@count == 0} leaf{/if}">
 	<a 	href="{$node.link|escape:'html':'UTF-8'}"{if isset($currentCategoryId) && $node.id == $currentCategoryId} class="selected"{/if} title="{$node.name|strip_tags|trim|escape:'html':'UTF-8'}">
 		{$node.name|escape:'html':'UTF-8'}
 	</a>
